@@ -3,57 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riddhidipta Pal | Tech Enthusiast</title>
+    <title>Riddhidipta Pal | Cyberpunk Tech Enthusiast</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Orbitron', sans-serif;
             text-align: center;
-            margin: 50px;
-            background-color: #1a1a1a;
-            color: #ddd;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #0ff;
+            overflow-x: hidden;
+        }
+        .container {
+            padding: 50px;
         }
         h1 {
-            color: #00aaff;
-            font-size: 2.5em;
+            font-size: 3em;
+            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
         }
         p {
             font-size: 18px;
-            color: #bbb;
-            max-width: 600px;
+            max-width: 800px;
             margin: 10px auto;
+            color: #aaa;
         }
         .links a {
-            display: block;
-            margin: 10px 0;
-            color: #00aaff;
+            display: inline-block;
+            margin: 15px;
+            padding: 10px 20px;
+            border: 2px solid #0ff;
+            color: #0ff;
             text-decoration: none;
             font-weight: bold;
             font-size: 1.2em;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
         }
         .links a:hover {
-            color: #ff6600;
+            background: #0ff;
+            color: #000;
+            box-shadow: 0 0 20px #0ff;
         }
-        img {
+        .profile-pic {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             margin: 20px auto;
             display: block;
-            background-color: #444;
+            background: url('mypicture.jpg') center/cover no-repeat, linear-gradient(135deg, #444, #222);
+            border: 3px solid #0ff;
+            box-shadow: 0 0 15px #0ff;
+        }
+        .glitch {
+            font-size: 2em;
+            color: #0ff;
+            text-shadow: 2px 2px 5px rgba(0, 255, 255, 0.7);
         }
     </style>
 </head>
 <body>
-    <h1>Riddhidipta Pal</h1>
-    <img src="mypicture.jpg" alt="My Picture">
-    <p>Hey, I'm Riddhidipta! A technology enthusiast passionate about software development, embedded systems, and AI. I love exploring new ideas and pushing the boundaries of innovation.</p>
-    <p>Check out my work and connect with me:</p>
-    <div class="links">
-        <a href="https://github.com/CodingLife1024" target="_blank">GitHub</a>
-        <a href="https://www.instagram.com/quantum_bengali/" target="_blank">Instagram</a>
-        <a href="https://www.linkedin.com/in/riddhidipta-pal/" target="_blank">LinkedIn</a>
-        <a href="https://prism-pages.vercel.app/" target="_blank">Personal Blog</a>
-        <a href="#">Personal Website (Coming Soon)</a>
+    <div class="container">
+        <h1 class="glitch">Riddhidipta Pal</h1>
+        <div class="profile-pic"></div>
+        <p>Welcome to my cyber domain. I am a technology enthusiast, exploring the intersection of AI, embedded systems, and software development. Constantly pushing boundaries, embracing the digital chaos, and innovating for the future.</p>
+        <p>Connect with me in the neon-lit corridors of the web:</p>
+        <div class="links">
+            <a href="https://github.com/CodingLife1024" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/quantum_bengali/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/riddhidipta-pal/" target="_blank">LinkedIn</a>
+            <a href="https://prism-pages.vercel.app/" target="_blank">Personal Blog</a>
+            <a href="#">Personal Website (Coming Soon)</a>
+        </div>
     </div>
 </body>
 </html>
