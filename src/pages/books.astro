@@ -1,0 +1,27 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Link from '@/components/Link.astro'
+import PageHead from '@/components/PageHead.astro'
+import Layout from '@/layouts/Layout.astro'
+
+import { getEntry } from 'astro:content'
+
+const entry = await getEntry('books', 'read-log')
+const { Content } = entry ? await entry.render() : { Content: () => null }
+
+---
+
+<Layout class="max-w-3xl">
+  <PageHead slot="head" title="Books" />
+  <Breadcrumbs items={[{ label: 'Books', icon: 'lucide:book' }]} />
+
+  <section>
+    <div class="min-w-full">
+
+        <div class="prose max-w-none">
+            <Content />
+        </div>
+
+    </div>
+  </section>
+</Layout>
