@@ -20,7 +20,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   site: 'https://CodingLife1024.github.io',
-  base: '/blog/',
+  base: '/',
   integrations: [
     expressiveCode({
       themes: ['github-light', 'github-dark'],
