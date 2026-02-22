@@ -8,7 +8,7 @@ export const SITE: Site = {
   author: 'CodingLife1024',
   locale: 'en-US',
   featuredPostCount: 2,
-  postsPerPage: 5,
+  postsPerPage: 3,
 }
 
 export const NAV_LINKS: SocialLink[] = [
