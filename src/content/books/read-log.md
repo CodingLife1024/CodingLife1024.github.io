@@ -46,9 +46,9 @@ description: Personal reading log by year
 | &#x2B1C; | Invisible Cities                                     | 1972            | Italo Calvino                       |                                                                |
 | &#x2B1C; | The Shadow Lines                                     | 1988            | Amitav Ghosh                        |                                                                |
 | &#x2B1C; | The Hour of the Star                                 | 1977            | Clarice Lispector                   |    
-| &#x2B1C; | Blind Willow, Sleeping Woman                         | 2006            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | The Elephant Vanishes                                | 1993            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | After Dark                                           | 2004            | Haruki Murakami                     |                                                                |                                                            |
+| &#x23F8; | Blind Willow, Sleeping Woman                         | 2006            | Haruki Murakami                     |                                                                |
+| &#x23F8; | The Elephant Vanishes                                | 1993            | Haruki Murakami                     |                                                                |
+| &#x2705; | After Dark | 2004 | Haruki Murakami || &#11088; &#11088; &#11088;|
 
 # Books for 2025
 
