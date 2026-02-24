@@ -7,12 +7,12 @@ description: Personal reading log by year
 
 |          | Book Name                                            | Year of Release | Author                              | My Rating                                                      |
 | -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | -------------------------------------------------------------- |
-| &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin                   | <progress value="10" max="100"></progress> |
-| &#x2B1C; | Planet of Exile                                      | 1966            | Ursula K. Le Guin                   |                                                                |
-| &#x23F8; | City of Illusions                                    | 1967            | Ursula K. Le Guin                   | <progress value="30" max="100"></progress> |
-| &#x2B1C; | The Word for World is Forest                         | 1972            | Ursula K. Le Guin                   |                                                                |
-| &#x23F8; | Four Ways to Forgiveness                             | 1995            | Ursula K. Le Guin                   | <progress value="0" max="100"></progress> |
-| &#x2B1C; | The Telling                                          | 2000            | Ursula K. Le Guin                   |                                                                |
+| &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="10" max="100"></progress> |
+| &#x2B1C; | Planet of Exile | 1966 | Ursula K. Le Guin | |
+| &#x23F8; | City of Illusions | 1967 | Ursula K. Le Guin | <progress value="30" max="100"></progress> |
+| &#x2B1C; | The Word for World is Forest | 1972 | Ursula K. Le Guin | |
+| &#x23F8; | Four Ways to Forgiveness | 1995 | Ursula K. Le Guin | <progress value="0" max="100"></progress> |
+| &#x2B1C; | The Telling | 2000 | Ursula K. Le Guin | |
 | &#x2B1C; | The Lathe of Heaven                                  | 1971            | Ursula K. Le Guin                   |                                                                |
 | &#x2B1C; | The Beginning Place                                  | 1980            | Ursula K. Le Guin                   |                                                                |
 | &#x2B1C; | Always Coming Home                                   | 1985            | Ursula K. Le Guin                   |                                                                |
