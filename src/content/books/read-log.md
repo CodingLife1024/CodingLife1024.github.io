@@ -9,7 +9,7 @@ description: Personal reading log by year
 | -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | -------------------------------------------------------------- |
 | &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="10" max="100"></progress> |
 | &#x2B1C; | Planet of Exile | 1966 | Ursula K. Le Guin | |
-| &#x23F8; | City of Illusions | 1967 | Ursula K. Le Guin | <progress value="30" max="100"></progress> |
+| &#x2705; | City of Illusions | 1967 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
 | &#x2B1C; | The Word for World is Forest | 1972 | Ursula K. Le Guin | |
 | &#x23F8; | Four Ways to Forgiveness | 1995 | Ursula K. Le Guin | <progress value="0" max="100"></progress> |
 | &#x2B1C; | The Telling | 2000 | Ursula K. Le Guin | |
