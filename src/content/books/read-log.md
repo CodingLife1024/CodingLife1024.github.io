@@ -13,41 +13,41 @@ description: Personal reading log by year
 | &#x2B1C; | The Word for World is Forest | 1972 | Ursula K. Le Guin | |
 | &#x23F8; | Four Ways to Forgiveness | 1995 | Ursula K. Le Guin | <progress value="0" max="100"></progress> |
 | &#x2B1C; | The Telling | 2000 | Ursula K. Le Guin | |
-| &#x2B1C; | The Lathe of Heaven                                  | 1971            | Ursula K. Le Guin                   |                                                                |
-| &#x2B1C; | The Beginning Place                                  | 1980            | Ursula K. Le Guin                   |                                                                |
-| &#x2B1C; | Always Coming Home                                   | 1985            | Ursula K. Le Guin                   |                                                                |
-| &#x2B1C; | Carmilla                                             | 1897            | Sheridan Le Fanu                    |                                                                |
-| &#x2B1C; | Naked Economics                                      | 2013            | Charles Wheelan, Burton G. Malkiel  |                                                                |
-| &#x2B1C; | Freakonomics                                         | 2005            | Steven D. Levitt, Stephen J. Dubner |                                                                |
-| &#x2B1C; | White Nights                                         | 1848            | Fyodor Dostoevsky                   |                                                                |
-| &#x2B1C; | Hear the Wind Sing                                   | 1979            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | Pinball, 1973                                        | 1980            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | A Wild Sheep Chase                                   | 1982            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | Hard-Boiled Wonderland and the End of the World      | 1985            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | South of the Border, West of the Sun                 | 1992            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | The Wind-Up Bird Chronicle                           | 1994            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | Sputnik Sweetheart                                   | 1999            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | After Dark                                           | 2004            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | 1Q84                                                 | 2009            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | Colorless Tsukuru Tazaki and His Years of Pilgrimage | 2013            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | Killing Commendatore                                 | 2017            | Haruki Murakami                     |                                                                |
-| &#x2B1C; | Coraline                                             | 2002            | Neil Gaiman                         |                                                                |
-| &#x2B1C; | American Gods                                        | 2001            | Neil Gaiman                         |                                                                |
-| &#x2B1C; | Neverwhere                                           | 1996            | Neil Gaiman                         |                                                                |
-| &#x2B1C; | The Graveyard Book                                   | 2008            | Neil Gaiman                         |                                                                |
-| &#x2B1C; | Stardust                                             | 1999            | Neil Gaiman                         |                                                                |
-| &#x2B1C; | The Kite Runner                                      | 2003            | Khaled Hosseini                     |                                                                |
-| &#x2B1C; | A Thousand Splendid Suns                             | 2007            | Khaled Hosseini                     |                                                                |
-| &#x2B1C; | And the Mountains Echoed                             | 2013            | Khaled Hosseini                     |                                                                |
-| &#x2B1C; | Sea Prayer                                           | 2018            | Khaled Hosseini                     |                                                                |
-| &#x2B1C; | Never Let Me Go                                      | 2005            | Kazuo Ishiguro                      |                                                                |
-| &#x2B1C; | The Remains of the Day                               | 1989            | Kazuo Ishiguro                      |                                                                |
-| &#x2B1C; | Parable of the Sower                                 | 1993            | Octavia E. Butler                   |                                                                |
-| &#x2B1C; | Invisible Cities                                     | 1972            | Italo Calvino                       |                                                                |
-| &#x2B1C; | The Shadow Lines                                     | 1988            | Amitav Ghosh                        |                                                                |
-| &#x2B1C; | The Hour of the Star                                 | 1977            | Clarice Lispector                   |    
-| &#x23F8; | Blind Willow, Sleeping Woman                         | 2006            | Haruki Murakami                     | <progress value="10" max="100"></progress> |
-| &#x23F8; | The Elephant Vanishes                                | 1993            | Haruki Murakami | <progress value="50" max="100"></progress> |
+| &#x2B1C; | The Lathe of Heaven | 1971 | Ursula K. Le Guin |  |
+| &#x2B1C; | The Beginning Place | 1980 | Ursula K. Le Guin |  |
+| &#x2B1C; | Always Coming Home | 1985 | Ursula K. Le Guin |  |
+| &#x2B1C; | Carmilla | 1897 | Sheridan Le Fanu |  |
+| &#x2B1C; | Naked Economics | 2013 | Charles Wheelan, Burton G. Malkiel |  |
+| &#x2B1C; | Freakonomics | 2005 | Steven D. Levitt, Stephen J. Dubner |  |
+| &#x2B1C; | White Nights | 1848 | Fyodor Dostoevsky |  |
+| &#x2B1C; | Hear the Wind Sing | 1979 | Haruki Murakami |  |
+| &#x2B1C; | Pinball, 1973 | 1980 | Haruki Murakami |  |
+| &#x2B1C; | A Wild Sheep Chase | 1982 | Haruki Murakami |  |
+| &#x2B1C; | Hard-Boiled Wonderland and the End of the World | 1985 | Haruki Murakami |  |
+| &#x2B1C; | South of the Border, West of the Sun | 1992 | Haruki Murakami |  |
+| &#x2B1C; | The Wind-Up Bird Chronicle | 1994 | Haruki Murakami |  |
+| &#x2B1C; | Sputnik Sweetheart | 1999 | Haruki Murakami |  |
+| &#x2B1C; | After Dark | 2004 | Haruki Murakami |  |
+| &#x2B1C; | 1Q84 | 2009 | Haruki Murakami |  |
+| &#x2B1C; | Colorless Tsukuru Tazaki and His Years of Pilgrimage | 2013 | Haruki Murakami |  |
+| &#x2B1C; | Killing Commendatore | 2017 | Haruki Murakami |  |
+| &#x2B1C; | Coraline | 2002 | Neil Gaiman |  |
+| &#x2B1C; | American Gods | 2001 | Neil Gaiman |  |
+| &#x2B1C; | Neverwhere | 1996 | Neil Gaiman |  |
+| &#x2B1C; | The Graveyard Book | 2008 | Neil Gaiman |  |
+| &#x2B1C; | Stardust | 1999 | Neil Gaiman |  |
+| &#x2B1C; | The Kite Runner | 2003 | Khaled Hosseini |  |
+| &#x2B1C; | A Thousand Splendid Suns | 2007 | Khaled Hosseini |  |
+| &#x2B1C; | And the Mountains Echoed | 2013 | Khaled Hosseini |  |
+| &#x2B1C; | Sea Prayer | 2018 | Khaled Hosseini |  |
+| &#x2B1C; | Never Let Me Go | 2005 | Kazuo Ishiguro |  |
+| &#x2B1C; | The Remains of the Day | 1989 | Kazuo Ishiguro |  |
+| &#x2B1C; | Parable of the Sower | 1993 | Octavia E. Butler |  |
+| &#x2B1C; | Invisible Cities | 1972 | Italo Calvino |  |
+| &#x2B1C; | The Shadow Lines | 1988 | Amitav Ghosh |  |
+| &#x2B1C; | The Hour of the Star | 1977 | Clarice Lispector | 
+| &#x23F8; | Blind Willow, Sleeping Woman | 2006 | Haruki Murakami | <progress value="10" max="100"></progress> |
+| &#x23F8; | The Elephant Vanishes | 1993 | Haruki Murakami | <progress value="50" max="100"></progress> |
 | &#x2705; | After Dark | 2004 | Haruki Murakami | &#11088; &#11088; &#11088; |
 
 # Books for 2025
