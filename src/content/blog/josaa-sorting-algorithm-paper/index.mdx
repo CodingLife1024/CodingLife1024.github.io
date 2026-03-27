@@ -1,0 +1,125 @@
+---
+title: 'Reimplementing the JoSAA Seat Allocation Algorithm'
+description: 'Replicating the official JoSAA seat allocation algorithms from the academic paper (Ongoing)'
+date: 2026-03-30
+tags: ["tech", "algorithms", "research"]
+image: './banner.png'
+authors: ['CodingLife1024']
+---
+
+# Deferred Acceptance algorithm, Gale and Shapley (Python Implementation)
+
+The JoSAA allocation algorithm is based adapting the current Deferred Acceptance Algorithm. The line numbers are based off their corresponding sections in the pseudocode in the JoSAA paper.
+
+```python
+from collections import deque
+
+def deferred_acceptance(candidates, programs, preferences, capacities, merit_lists, eligibility=None):
+    """
+    candidates: list of candidate IDs
+    programs: list of program IDs
+    preferences: dict {candidate: [program1, program2, ...]}
+    capacities: dict {program: int}
+    merit_lists: dict {program: [candidate1, candidate2, ...]} (sorted by rank)
+    eligibility: dict {(candidate, program): bool} (optional)
+    """
+
+    # Default: everyone eligible everywhere
+    if eligibility is None:
+        eligibility = {(x, p): True for x in candidates for p in programs}
+
+    # Rank lookup: lower index = better rank
+    rank = {
+        p: {candidate: i for i, candidate in enumerate(merit_lists[p])}
+        for p in programs
+    }
+
+    # Step 1–4: Initialize empty waitlists
+    waitlist = {p: [] for p in programs}
+
+    # Step 5: Queue
+    Q = deque()
+
+    # Step 6–11: Initialize i(x) and enqueue
+    i = {x: 0 for x in candidates}
+    for x in candidates:
+        if len(preferences[x]) > 0:
+            Q.append(x)
+
+    # Reject function
+    def reject(x):
+        i[x] += 1
+        if i[x] < len(preferences[x]):
+            Q.append(x)
+
+    # Step 12–31: Main loop
+    while Q:
+        x = Q.popleft()
+
+        # If no more preferences, skip
+        if i[x] >= len(preferences[x]):
+            continue
+
+        p = preferences[x][i[x]]
+
+        # Step 15–18: Check eligibility
+        if not eligibility.get((x, p), True):
+            reject(x)
+            continue
+
+        # Apply to program p
+        wl = waitlist[p]
+
+        # Insert function (keeps waitlist ordered by merit)
+        def insert_candidate(candidate):
+            wl.append(candidate)
+            wl.sort(key=lambda c: rank[p].get(c, float('inf')))
+
+        if len(wl) == capacities[p]:
+            # Waitlist full
+            y = wl[-1]  # worst-ranked candidate
+
+            if rank[p].get(x, float('inf')) < rank[p].get(y, float('inf')):
+                # Replace y with x
+                wl.pop()
+                reject(y)
+                insert_candidate(x)
+            else:
+                reject(x)
+        else:
+            insert_candidate(x)
+
+    # Step 32–38: Final allocation
+    allocation = {x: None for x in candidates}
+    for x in candidates:
+        if i[x] < len(preferences[x]):
+            allocation[x] = preferences[x][i[x]]
+        else:
+            allocation[x] = None
+
+    return allocation, waitlist
+```
+
+High level implementaion details -
+
+1. Initialisation - Each program starts with an empty waitlist, and each candidate is set to apply to their top preference. All candidates with non-zero number of choices are placed in a queue.
+2. Iterative proposals - Candidates are processed one by one from the queue. Each candidate applies to their current preferred program (based on their position in the preference list).
+3. Eligibility check - If a candidate is not eligible for a program, they are immediately rejected and move to their next preference.
+4. Program decision (core DA logic):
+    - If the program has available capacity, the candidate is added to its waitlist.
+    - If the program is full, it compares the new applicant with the lowest-ranked (worst) candidate currently on its waitlist:
+    - If the new candidate has a better rank, they replace the worst candidate (who is rejected and re-enters the queue).
+    - Otherwise, the new candidate is rejected.
+5. Rejections and retries - Rejected candidates increment their preference pointer and rejoin the queue to try their next choice.
+6. Termination - The process continues until no candidate can make further proposals.
+7. Final allocation - Each candidate is assigned to the program where they are currently held (if any), producing a stable matching—no candidate-program pair would prefer each other over their assigned match.
+
+Citations:
+
+[*Joint Seat Allocation 2018: An algorithmic perspective*](https://arxiv.org/abs/1904.06698)
+
+[*Gale-Shapley Verified*](https://link.springer.com/article/10.1007/s10817-024-09700-x)
+
+[*The New York city high school match*](https://www.aeaweb.org/articles?id=10.1257/000282805774670167)
+
+Alvin E Roth and Marilda A Oliveira Sotomayor. Two-sided matching: A study in game-theoretic modeling and analysis. Number 18 in Econometric Society Monographs. Cambridge University Press, 1992.
