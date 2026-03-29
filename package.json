@@ -2,6 +2,7 @@
   "name": "riddhi-blog-2026",
   "type": "module",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -14,7 +15,7 @@
     "@astrojs/check": "0.9.7",
     "@astrojs/markdown-remark": "7.0.0",
     "@astrojs/mdx": "5.0.0",
-    "@astrojs/react": "5.0.0",
+    "@astrojs/react": "^5.0.2",
     "@astrojs/rss": "4.0.17",
     "@astrojs/sitemap": "3.7.1",
     "@expressive-code/plugin-collapsible-sections": "^0.40.2",
@@ -24,7 +25,7 @@
     "@tailwindcss/vite": "^4.0.7",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
-    "astro": "6.0.2",
+    "astro": "^6.1.1",
     "astro-icon": "^1.1.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -40,6 +41,9 @@
     "tailwind-merge": "^3.3.0",
     "tailwindcss": "^4.1.7",
     "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "vite": "^7.0.0"
   },
   "devDependencies": {
     "prettier": "^3.5.1",
