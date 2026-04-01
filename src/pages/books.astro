@@ -6,8 +6,15 @@ import Layout from '@/layouts/Layout.astro'
 import { getEntry, render } from 'astro:content'
 
 const entry = await getEntry('books', 'read-log')
-const { Content } = entry ? await render(entry) : { Content: () => null }
 
+if (!entry) {
+  throw new Error('Books entry not found')
+}
+
+const { Content, headings } = await render(entry)
+
+console.log('Books entry:', entry)
+console.log('Books headings:', headings)
 ---
 
 <Layout class="max-w-3xl">
@@ -16,11 +23,9 @@ const { Content } = entry ? await render(entry) : { Content: () => null }
 
   <section>
     <div class="min-w-full">
-
-        <div class="prose max-w-none">
-            <Content />
-        </div>
-
+      <div class="prose max-w-none">
+        <Content />
+      </div>
     </div>
   </section>
 </Layout>
