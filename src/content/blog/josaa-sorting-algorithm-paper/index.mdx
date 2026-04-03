@@ -1,7 +1,7 @@
 ---
 title: 'Reimplementing the JoSAA Seat Allocation Algorithm'
 description: 'Replicating the official JoSAA seat allocation algorithms from the academic paper (Ongoing)'
-date: 2026-03-30
+date: 2026-04-03
 tags: ["tech", "algorithms", "research"]
 image: './banner.png'
 authors: ['CodingLife1024']
@@ -113,6 +113,156 @@ High level implementaion details -
 5. Rejections and retries - Rejected candidates increment their preference pointer and rejoin the queue to try their next choice.
 6. Termination - The process continues until no candidate can make further proposals.
 7. Final allocation - Each candidate is assigned to the program where they are currently held (if any), producing a stable matching—no candidate-program pair would prefer each other over their assigned match.
+
+# Multi-Round Scenario
+
+Allocation is carried out over multiple rounds.
+
+Many candidates who are allotted seats in an initial round may later withdraw, upgrade, or become ineligible. These vacated seats must then be redistributed.
+
+## Seat Guarantee Across Rounds
+
+Between rounds, candidate data may change:
+- Corrections in credentials (e.g., category, marks)
+- Newly eligible candidates entering the system
+
+To ensure fairness, candidates who were allotted a seat in earlier rounds must not be disadvantaged in later rounds.
+
+This is handled using the concept of Min-Cutoff(p) for each program $p$:
+
+- It represents the worst rank that was accepted into program $p$ in earlier rounds. Any candidate with rank better than or equal to Min-Cutoff(p) is guaranteed to not be rejected in subsequent rounds, regardless of competition.
+
+This ensures:
+
+- Monotonicity: previously allocated candidates cannot lose their seat unfairly
+- Stability across rounds despite dynamic inputs
+
+## Handling Multiple Candidates with Equal Rank
+
+In practice, multiple candidates may share the exact same rank. This creates a complication:
+
+- When a program is oversubscribed, rejecting only the worst candidate may violate fairness if others have the same rank. Ideally, all candidates with the same rank should be treated identically.
+
+However, removing all such candidates may cause the waitlist to drop below capacity (underflow)
+
+To handle this, the algorithm introduces:
+
+Two Key Concepts
+Let: G = current size of the waitlist, and
+L = number of candidates sharing the same rank as the worst candidate
+Case 1: Safe Removal
+If $G − L ≥ capacity$, then remove all candidates with that rank
+Case 2: Unsafe Removal
+If removing all would violate capacity, keep them, and allow temporary overflow
+
+This leads to *Supernumerary Seats*. Candidates with tied ranks may be retained beyond capacity to preserve fairness.
+
+```
+from collections import deque, defaultdict
+
+def deferred_acceptance_full(
+    candidates,
+    programs,
+    preferences,     # {x: [p1, p2, ...]}
+    capacities,      # {p: int}
+    merit_lists,     # {p: [x1, x2, ...]} (ordered best -> worst, ties allowed via same rank)
+    min_cutoff=None  # {p: int} optional
+):
+    # Default cutoff = infinity (i.e., no cutoff restriction)
+    if min_cutoff is None:
+        min_cutoff = {p: float('inf') for p in programs}
+
+    # Build rank lookup: rank[p][x] = position (lower = better)
+    rank = {}
+    for p in programs:
+        rank[p] = {}
+        for i, x in enumerate(merit_lists[p]):
+            rank[p][x] = i
+
+    # Initialize WaitLists
+    waitlist = {p: [] for p in programs}
+
+    # Initialize i(x)
+    i = {x: 0 for x in candidates}
+
+    # Initialize queue
+    Q = deque([x for x in candidates if len(preferences.get(x, [])) > 0])
+
+    def reject(x):
+        """Reject x and move to next preference"""
+        i[x] += 1
+        if i[x] < len(preferences.get(x, [])):
+            Q.append(x)
+
+    def insert_sorted(p, x):
+        """Insert x into waitlist[p] maintaining sorted order"""
+        wl = waitlist[p]
+        r = rank[p].get(x, float('inf'))
+
+        idx = 0
+        while idx < len(wl) and rank[p].get(wl[idx], float('inf')) <= r:
+            idx += 1
+        wl.insert(idx, x)
+
+    def remove_and_reject(p, w):
+        """Remove all tied candidates with same rank as w if needed"""
+        wl = waitlist[p]
+        G = len(wl)
+
+        # rank of w
+        r_w = rank[p].get(w, float('inf'))
+
+        # Find all with same rank
+        same_rank = [x for x in wl if rank[p].get(x, float('inf')) == r_w]
+        L = len(same_rank)
+
+        # If removing all still keeps capacity satisfied
+        if (G - L) >= capacities[p]:
+            for x in same_rank:
+                wl.remove(x)
+                reject(x)
+
+    # Main loop
+    while Q:
+        x = Q.popleft()
+
+        if i[x] >= len(preferences.get(x, [])):
+            continue
+
+        p = preferences[x][i[x]]
+
+        # Check eligibility (assume eligible if in merit list)
+        if x not in rank[p] or capacities[p] == 0:
+            reject(x)
+            continue
+
+        # Insert into waitlist
+        insert_sorted(p, x)
+
+        # If within capacity → accept tentatively
+        if len(waitlist[p]) <= capacities[p]:
+            continue
+
+        # Otherwise check last candidate
+        y = waitlist[p][-1]
+
+        # Apply cutoff rule
+        if rank[p].get(y, float('inf')) > min_cutoff[p]:
+            waitlist[p].pop()
+            reject(y)
+        else:
+            remove_and_reject(p, y)
+
+    # Build final matching
+    mu = {}
+    for x in candidates:
+        if i[x] < len(preferences.get(x, [])):
+            mu[x] = preferences[x][i[x]]
+        else:
+            mu[x] = None
+
+    return mu, i, waitlist
+```
 
 Citations:
 
