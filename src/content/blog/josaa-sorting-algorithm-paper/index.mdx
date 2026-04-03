@@ -145,14 +145,12 @@ In practice, multiple candidates may share the exact same rank. This creates a c
 
 However, removing all such candidates may cause the waitlist to drop below capacity (underflow)
 
-To handle this, the algorithm introduces:
+To handle this, the algorithm introduces 2 concepts:
 
-Two Key Concepts
-Let: G = current size of the waitlist, and
-L = number of candidates sharing the same rank as the worst candidate
-Case 1: Safe Removal
+Let: G = current size of the waitlist, and L = number of candidates sharing the same rank as the worst candidate
+- Case 1: Safe Removal
 If $G − L ≥ capacity$, then remove all candidates with that rank
-Case 2: Unsafe Removal
+- Case 2: Unsafe Removal
 If removing all would violate capacity, keep them, and allow temporary overflow
 
 This leads to *Supernumerary Seats*. Candidates with tied ranks may be retained beyond capacity to preserve fairness.
