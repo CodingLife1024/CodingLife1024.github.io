@@ -1,7 +1,7 @@
 ---
 title: 'Reimplementing the JoSAA Seat Allocation Algorithm'
 description: 'Replicating the official JoSAA seat allocation algorithms from the academic paper (Ongoing)'
-date: 2026-04-03
+date: 2026-04-06
 tags: ["tech", "algorithms", "research"]
 image: './banner.png'
 authors: ['CodingLife1024']
@@ -260,6 +260,45 @@ def deferred_acceptance_full(
             mu[x] = None
 
     return mu, i, waitlist
+```
+
+# Multi-round Implementation
+
+## Computing min-cutoff
+
+```python
+def compute_min_cutoff(waitlist_p, rank, rejected, withdrawn, cancelled):
+    """
+    waitlist_p : list of candidates (ordered best → worst)
+    rank       : function or dict -> rank[(candidate, program)] gives Rank(y, p)
+    rejected   : set of candidates who opted for reject
+    withdrawn  : set of candidates who opted for withdraw
+    cancelled  : set of candidates whose seat got cancelled
+
+    returns    : Min-Cutoff(p) for next round
+    """
+
+    # Step 1: Build reduced waitlist
+    reduced_waitlist = []
+
+    for candidate in waitlist_p:
+        if candidate in rejected:
+            continue
+        if candidate in withdrawn:
+            continue
+        if candidate in cancelled:
+            continue
+
+        reduced_waitlist.append(candidate)
+
+    # Step 2: Compute Min-Cutoff
+    if len(reduced_waitlist) == 0:
+        return 0  # no cutoff benefit next round
+
+    # last candidate in reduced waitlist (worst-ranked among remaining)
+    y = reduced_waitlist[-1]
+
+    return rank[(y, "p")]  # Rank(y, p)
 ```
 
 Citations:
