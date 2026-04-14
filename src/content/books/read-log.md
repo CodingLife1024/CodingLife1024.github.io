@@ -8,6 +8,7 @@ description: Personal reading log by year
 |          | Book Name                                            | Year of Release | Author                              | My Rating                                                      |
 | -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | -------------------------------------------------------------- |
 | &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="10" max="100"></progress> |
+| &#x23F8; | The Stranger | 1942 | Albert Camus | <progress value="52" max="100"></progress> |
 | &#x2B1C; | Planet of Exile | 1966 | Ursula K. Le Guin | |
 | &#x2705; | City of Illusions | 1967 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
 | &#x2705; | Yaraana: Gay Writing from India | 1999 | Hoshang Merchant | &#11088; |
