@@ -44,7 +44,7 @@ $$
   $$
 
 - **Symmetry:**
-  
+
   The distribution is symmetric about the mean $\mu$.
 
 - **Moment Generating Function (MGF):**
@@ -58,21 +58,21 @@ $$
   $$
 
 - **Standardization:**
-  
+
   If $X \sim \mathcal{N}(\mu, \sigma^2)$, then:
   $$
   Z = \frac{X - \mu}{\sigma} \sim \mathcal{N}(0, 1)
   $$
 
 - **Sum of Independent Gaussians:**
-  
+
   If $X_1 \sim \mathcal{N}(\mu_1, \sigma_1^2)$ and $X_2 \sim \mathcal{N}(\mu_2, \sigma_2^2)$ are independent:
   $$
   X_1 + X_2 \sim \mathcal{N}(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)
   $$
 
 - **Linear Transformation:**
-  
+
   If $X \sim \mathcal{N}(\mu, \sigma^2)$ and $Y = aX + b$, then:
   $$
   Y \sim \mathcal{N}(a\mu + b, a^2\sigma^2)
@@ -84,10 +84,10 @@ $$
   $$
 
 - **Maximum Entropy Property:**
-  
+
   Among all continuous distributions with a fixed mean and variance, the Gaussian has the maximum entropy.
 
-# Multivariate Gaussian 
+# Multivariate Gaussian
 
 The probability density function of a $d$-dimensional multivariate Gaussian is:
 
@@ -97,10 +97,10 @@ $$
 
 where:
 
-- $\mathbf{x} \in \mathbb{R}^d$ is the random vector  
-- $\boldsymbol{\mu} \in \mathbb{R}^d$ is the mean vector  
-- $\Sigma \in \mathbb{R}^{d \times d}$ is the covariance matrix (symmetric and positive definite)  
-- $|\Sigma|$ denotes the determinant of $\Sigma$  
+- $\mathbf{x} \in \mathbb{R}^d$ is the random vector
+- $\boldsymbol{\mu} \in \mathbb{R}^d$ is the mean vector
+- $\Sigma \in \mathbb{R}^{d \times d}$ is the covariance matrix (symmetric and positive definite)
+- $|\Sigma|$ denotes the determinant of $\Sigma$
 - **Covariance matrix:** $\Sigma \in \mathcal{S}_{++}^n$
 
   where $\mathcal{S}_{++}^n = \{ A \in \mathbb{R}^{n \times n} \mid A = A^\top,\; x^\top A x > 0 \;\forall x \neq 0 \}$
@@ -140,7 +140,7 @@ where:
 Consider a $d$-dimensional multivariate Gaussian:
 
 $$
-p(\mathbf{x}; {\mu}, {\Sigma}) = \frac{1}{(2\pi)^{d/2} |\Sigma|^{1/2}} 
+p(\mathbf{x}; {\mu}, {\Sigma}) = \frac{1}{(2\pi)^{d/2} |\Sigma|^{1/2}}
 \exp\left( -\frac{1}{2} (\mathbf{x} - \boldsymbol{\mu})^\top \Sigma^{-1} (\mathbf{x} - \boldsymbol{\mu}) \right)
 $$
 
@@ -149,7 +149,7 @@ $$
 Let the covariance matrix be diagonal:
 
 $$
-\Sigma = 
+\Sigma =
 \begin{bmatrix}
 \sigma_1^2 & 0 & \cdots & 0 \\
 0 & \sigma_2^2 & \cdots & 0 \\
@@ -200,8 +200,8 @@ $$
 ### Step 4: Substitute Back into the PDF
 
 $$
-p(\mathbf{x}; {\mu}, {\Sigma}) 
-= \frac{1}{(2\pi)^{d/2} \left(\prod_{i=1}^{d} \sigma_i^2 \right)^{1/2}} 
+p(\mathbf{x}; {\mu}, {\Sigma})
+= \frac{1}{(2\pi)^{d/2} \left(\prod_{i=1}^{d} \sigma_i^2 \right)^{1/2}}
 \exp\left( -\frac{1}{2} \sum_{i=1}^{d} \frac{(x_i - \mu_i)^2}{\sigma_i^2} \right)
 $$
 
@@ -217,9 +217,9 @@ $$
 ### Final Result
 
 $$
-p(\mathbf{x}; {\mu}, {\Sigma}) 
-= \prod_{i=1}^{d} 
-\frac{1}{\sqrt{2\pi \sigma_i^2}} 
+p(\mathbf{x}; {\mu}, {\Sigma})
+= \prod_{i=1}^{d}
+\frac{1}{\sqrt{2\pi \sigma_i^2}}
 \exp\left( -\frac{(x_i - \mu_i)^2}{2\sigma_i^2} \right)
 $$
 
@@ -229,13 +229,13 @@ $$
 
 - The multivariate Gaussian **factorizes into a product of independent univariate Gaussians**.
 - Each dimension $x_i$ is independent:
-  
+
   $$
   X_i \sim \mathcal{N}(\mu_i, \sigma_i^2)
   $$
 
 - Therefore:
-  
+
   $$
   p(\mathbf{x}; {\mu}, {\Sigma}) = \prod_{i=1}^{d} p(x_i)
   $$
@@ -245,7 +245,7 @@ $$
 Consider a 2-dimensional Gaussian:
 
 $$
-p(\mathbf{x}) = \frac{1}{(2\pi)^{1} |\Sigma|^{1/2}} 
+p(\mathbf{x}) = \frac{1}{(2\pi)^{1} |\Sigma|^{1/2}}
 \exp\left( -\frac{1}{2} (\mathbf{x} - \boldsymbol{\mu})^\top \Sigma^{-1} (\mathbf{x} - \boldsymbol{\mu}) \right)
 $$
 
@@ -301,7 +301,7 @@ $$
 ### Substitute into PDF
 
 $$
-p(\mathbf{x}) 
+p(\mathbf{x})
 = \frac{1}{2\pi \sigma_1 \sigma_2}
 \exp\left(
 - \frac{1}{2} \left[
@@ -317,7 +317,7 @@ $$
 ### Final Factorized Form
 
 $$
-p(\mathbf{x}) 
+p(\mathbf{x})
 = \left( \frac{1}{\sqrt{2\pi \sigma_1^2}} \exp\left(-\frac{(x_1 - \mu_1)^2}{2\sigma_1^2}\right) \right)
 \left( \frac{1}{\sqrt{2\pi \sigma_2^2}} \exp\left(-\frac{(x_2 - \mu_2)^2}{2\sigma_2^2}\right) \right)
 $$
@@ -327,7 +327,7 @@ $$
 ### Interpretation
 
 - $X_1$ and $X_2$ are independent.
-- 
+-
 $$
 X_1 \sim \mathcal{N}(\mu_1, \sigma_1^2), \quad
 X_2 \sim \mathcal{N}(\mu_2, \sigma_2^2)
@@ -337,3 +337,336 @@ $$
 $$
 p(\mathbf{x}) = p(x_1)\,p(x_2)
 $$
+
+## Isocontours (Level Sets)
+
+- **Definition:**
+
+  Isocontours (or level sets) of a function are the set of points where the function takes a constant value.
+
+- **Mathematical Definition:**
+
+  For a function $f : \mathbb{R}^n \to \mathbb{R}$, the isocontour corresponding to a constant $c \in \mathbb{R}$ is:
+
+  $$
+  \{\mathbf{x} \in \mathbb{R}^n \mid f(\mathbf{x}) = c\}
+  $$
+
+---
+
+### Isocontours of a Multivariate Gaussian
+
+For a Gaussian density:
+
+$$
+p(\mathbf{x}) \propto \exp\left(-\frac{1}{2}(\mathbf{x} - \boldsymbol{\mu})^\top \Sigma^{-1} (\mathbf{x} - \boldsymbol{\mu})\right)
+$$
+
+Taking logarithms (and ignoring constants), isocontours satisfy:
+
+$$
+(\mathbf{x} - \boldsymbol{\mu})^\top \Sigma^{-1} (\mathbf{x} - \boldsymbol{\mu}) = k
+$$
+
+for some constant $k > 0$.
+
+---
+
+### Interpretation
+
+- The isocontours of a multivariate Gaussian are **ellipsoids** centered at $\boldsymbol{\mu}$.
+- The shape and orientation are determined by the covariance matrix $\Sigma$.
+
+## Shape of Isocontours (Multivariate Gaussian)
+
+Consider the multivariate Gaussian:
+
+$$
+p(\mathbf{x}) \propto \exp\left(
+-\frac{1}{2} (\mathbf{x} - \boldsymbol{\mu})^\top \Sigma^{-1} (\mathbf{x} - \boldsymbol{\mu})
+\right)
+$$
+
+---
+
+### Step 1: Isocontour Condition
+
+Isocontours are defined by setting the density to a constant. Taking log and ignoring constants:
+
+$$
+(\mathbf{x} - \boldsymbol{\mu})^\top \Sigma^{-1} (\mathbf{x} - \boldsymbol{\mu}) = k
+$$
+
+for some constant $k > 0$.
+
+---
+
+### Step 2: Eigen Decomposition of $\Sigma$
+
+Since $\Sigma$ is symmetric positive definite:
+
+$$
+\Sigma = U \Lambda U^\top
+$$
+
+where:
+- $U$ is an orthogonal matrix of eigenvectors ($U^\top U = I$)
+- $\Lambda = \mathrm{diag}(\lambda_1, \dots, \lambda_d)$ contains eigenvalues ($\lambda_i > 0$)
+
+Then:
+
+$$
+\Sigma^{-1} = U \Lambda^{-1} U^\top
+$$
+
+---
+
+### Step 3: Change of Variables
+
+Let:
+
+$$
+\mathbf{y} = U^\top (\mathbf{x} - \boldsymbol{\mu})
+$$
+
+Substitute into the quadratic form:
+
+$$
+(\mathbf{x} - \boldsymbol{\mu})^\top \Sigma^{-1} (\mathbf{x} - \boldsymbol{\mu})
+= \mathbf{y}^\top \Lambda^{-1} \mathbf{y}
+$$
+
+---
+
+### Step 4: Simplify the Expression
+
+Since $\Lambda^{-1}$ is diagonal:
+
+$$
+\mathbf{y}^\top \Lambda^{-1} \mathbf{y}
+= \sum_{i=1}^{d} \frac{y_i^2}{\lambda_i}
+$$
+
+Thus, the isocontour condition becomes:
+
+$$
+\sum_{i=1}^{d} \frac{y_i^2}{\lambda_i} = k
+$$
+
+---
+
+### Step 5: Interpretation
+
+This is the equation of an **axis-aligned ellipsoid** in $\mathbf{y}$-space:
+
+- Axes aligned with coordinate directions (eigenvectors of $\Sigma$)
+- Semi-axis lengths proportional to $\sqrt{\lambda_i}$
+
+Transforming back to $\mathbf{x}$:
+
+- The ellipsoid is centered at $\boldsymbol{\mu}$
+- Rotated according to eigenvectors (columns of $U$)
+
+---
+
+### Final Conclusion
+
+- Isocontours of a multivariate Gaussian are **ellipsoids**.
+- Their:
+  - **Center** is $\boldsymbol{\mu}$
+  - **Orientation** is given by eigenvectors of $\Sigma$
+  - **Shape (axis lengths)** is determined by eigenvalues of $\Sigma$
+
+---
+
+## Marginal and Conditional Distributions
+
+---
+
+### 1. Marginal Distribution
+
+- **Definition:**
+
+  The marginal distribution of a subset of variables is obtained by **integrating out (or summing out)** the remaining variables from the joint distribution.
+
+- **Mathematical Definition:**
+
+  For a joint distribution $p(x_1, x_2)$:
+
+  - **Discrete case:**
+    $$
+    p(x_1) = \sum_{x_2} p(x_1, x_2)
+    $$
+
+  - **Continuous case:**
+    $$
+    p(x_1) = \int p(x_1, x_2)\, dx_2
+    $$
+
+- **Interpretation:**
+
+  The marginal distribution describes the behavior of $X_1$ **independently of** $X_2$.
+
+---
+
+### 2. Conditional Distribution
+
+- **Definition:**
+
+  The conditional distribution describes the distribution of one variable **given that another variable is known**.
+
+- **Mathematical Definition:**
+
+  $$
+  p(x_1 \mid x_2) = \frac{p(x_1, x_2)}{p(x_2)}
+  $$
+
+  where $p(x_2)$ is the marginal distribution of $X_2$.
+
+- **Interpretation:**
+
+  The conditional distribution describes how $X_1$ behaves **when $X_2$ is fixed**.
+
+---
+
+### 3. Key Difference
+
+- **Marginal:** ignores other variables  
+- **Conditional:** depends on known values of other variables  
+
+---
+
+## Additional Properties of the Multivariate Gaussian Distribution
+
+---
+
+### 1. Marginal Distributions
+
+- **Marginals are Gaussian:**
+
+  If 
+  $$
+  \mathbf{X} =
+  \begin{bmatrix}
+  \mathbf{X}_1 \\
+  \mathbf{X}_2
+  \end{bmatrix}
+  \sim \mathcal{N}
+  \left(
+  \begin{bmatrix}
+  \boldsymbol{\mu}_1 \\
+  \boldsymbol{\mu}_2
+  \end{bmatrix},
+  \begin{bmatrix}
+  \Sigma_{11} & \Sigma_{12} \\
+  \Sigma_{21} & \Sigma_{22}
+  \end{bmatrix}
+  \right)
+  $$
+
+  then:
+  $$
+  \mathbf{X}_1 \sim \mathcal{N}(\boldsymbol{\mu}_1, \Sigma_{11})
+  $$
+
+---
+
+### 2. Conditional Distributions
+
+- **Conditionals are Gaussian:**
+
+  $$
+  \mathbf{X}_1 \mid \mathbf{X}_2 = \mathbf{x}_2
+  \sim \mathcal{N}(\boldsymbol{\mu}_{1|2}, \Sigma_{1|2})
+  $$
+
+  where:
+  $$
+  \boldsymbol{\mu}_{1|2} = \boldsymbol{\mu}_1 + \Sigma_{12}\Sigma_{22}^{-1}(\mathbf{x}_2 - \boldsymbol{\mu}_2)
+  $$
+
+  $$
+  \Sigma_{1|2} = \Sigma_{11} - \Sigma_{12}\Sigma_{22}^{-1}\Sigma_{21}
+  $$
+
+---
+
+### 3. Independence vs Uncorrelated
+
+- **Independence condition (Gaussian-specific):**
+
+  $$
+  \Sigma_{ij} = 0 \quad \Longleftrightarrow \quad X_i \text{ and } X_j \text{ are independent}
+  $$
+
+---
+
+### 4. Affine Transformation Property
+
+- **Affine transformations preserve Gaussianity:**
+
+  If:
+  $$
+  \mathbf{X} \sim \mathcal{N}(\boldsymbol{\mu}, \Sigma)
+  $$
+
+  and:
+  $$
+  \mathbf{Y} = A\mathbf{X} + \mathbf{b}
+  $$
+
+  then:
+  $$
+  \mathbf{Y} \sim \mathcal{N}(A\boldsymbol{\mu} + \mathbf{b},\; A \Sigma A^\top)
+  $$
+
+---
+
+### 5. Mahalanobis Distance
+
+- **Definition:**
+
+  $$
+  d(\mathbf{x}) = \sqrt{(\mathbf{x} - \boldsymbol{\mu})^\top \Sigma^{-1} (\mathbf{x} - \boldsymbol{\mu})}
+  $$
+
+  The Gaussian density depends only on this distance.
+
+---
+
+### 6. Whitening Transformation
+
+- **Whitening:**
+
+  Let:
+  $$
+  \mathbf{Z} = \Sigma^{-1/2} (\mathbf{X} - \boldsymbol{\mu})
+  $$
+
+  then:
+  $$
+  \mathbf{Z} \sim \mathcal{N}(\mathbf{0}, I)
+  $$
+
+---
+
+### 7. Log-Likelihood
+
+- **Log-density:**
+
+  $$
+  \log p(\mathbf{x}) =
+  -\frac{1}{2} (\mathbf{x} - \boldsymbol{\mu})^\top \Sigma^{-1} (\mathbf{x} - \boldsymbol{\mu})
+  -\frac{1}{2} \log |\Sigma|
+  -\frac{d}{2} \log (2\pi)
+  $$
+
+---
+
+### 8. Entropy
+
+- **Entropy:**
+
+  $$
+  H(\mathbf{X}) = \frac{1}{2} \log \left((2\pi e)^d |\Sigma|\right)
+  $$
