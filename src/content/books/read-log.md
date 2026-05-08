@@ -7,7 +7,7 @@ description: Personal reading log by year
 
 |          | Book Name                                            | Year of Release | Author                              | My Rating                                                      |
 | -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | -------------------------------------------------------------- |
-| &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="10" max="100"></progress> |
+| &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="60" max="100"></progress> |
 | &#x2705; | The Stranger | 1942 | Albert Camus | &#11088; &#11088; &#11088; |
 | &#x2B1C; | Planet of Exile | 1966 | Ursula K. Le Guin | |
 | &#x2705; | City of Illusions | 1967 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
@@ -49,7 +49,7 @@ description: Personal reading log by year
 | &#x2B1C; | The Shadow Lines | 1988 | Amitav Ghosh |  |
 | &#x2B1C; | The Hour of the Star | 1977 | Clarice Lispector |  |
 | &#x23F8; | Blind Willow, Sleeping Woman | 2006 | Haruki Murakami | <progress value="10" max="100"></progress> |
-| &#x23F8; | The Elephant Vanishes | 1993 | Haruki Murakami | <progress value="50" max="100"></progress> |
+| &#x23F8; | The Elephant Vanishes | 1993 | Haruki Murakami | <progress value="95" max="100"></progress> |
 | &#x2705; | After Dark | 2004 | Haruki Murakami | &#11088; &#11088; &#11088; |
 
 # Books for 2025
