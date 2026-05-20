@@ -18,7 +18,7 @@ description: Personal reading log by year
 | &#x2B1C; | The Lathe of Heaven | 1971 | Ursula K. Le Guin |  |
 | &#x2B1C; | The Beginning Place | 1980 | Ursula K. Le Guin |  |
 | &#x2B1C; | Always Coming Home | 1985 | Ursula K. Le Guin |  |
-| &#x2B1C; | Carmilla | 1897 | Sheridan Le Fanu |  |
+| &#x23F8; | Carmilla | 1897 | Sheridan Le Fanu | <progress value="0" max="100"></progress> |
 | &#x2B1C; | Naked Economics | 2013 | Charles Wheelan, Burton G. Malkiel |  |
 | &#x2B1C; | Freakonomics | 2005 | Steven D. Levitt, Stephen J. Dubner |  |
 | &#x2B1C; | White Nights | 1848 | Fyodor Dostoevsky |  |
@@ -27,7 +27,7 @@ description: Personal reading log by year
 | &#x2B1C; | A Wild Sheep Chase | 1982 | Haruki Murakami |  |
 | &#x2B1C; | Hard-Boiled Wonderland and the End of the World | 1985 | Haruki Murakami |  |
 | &#x2B1C; | South of the Border, West of the Sun | 1992 | Haruki Murakami |  |
-| &#x2B1C; | The Wind-Up Bird Chronicle | 1994 | Haruki Murakami |  |
+| &#x23F8; | The Wind-Up Bird Chronicle | 1994 | Haruki Murakami | <progress value="0" max="100"></progress> |
 | &#x2B1C; | Sputnik Sweetheart | 1999 | Haruki Murakami |  |
 | &#x2B1C; | After Dark | 2004 | Haruki Murakami |  |
 | &#x2B1C; | 1Q84 | 2009 | Haruki Murakami |  |
