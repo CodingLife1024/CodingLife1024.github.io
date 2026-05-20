@@ -9,12 +9,12 @@ description: Personal reading log by year
 | -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | -------------------------------------------------------------- |
 | &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="60" max="100"></progress> |
 | &#x2705; | The Stranger | 1942 | Albert Camus | &#11088; &#11088; &#11088; |
-| &#x2B1C; | Planet of Exile | 1966 | Ursula K. Le Guin | |
+| &#x2B1C; | Planet of Exile | 1966 | Ursula K. Le Guin |  |
 | &#x2705; | City of Illusions | 1967 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
 | &#x2705; | Yaraana: Gay Writing from India | 1999 | Hoshang Merchant | &#11088; |
-| &#x2B1C; | The Word for World is Forest | 1972 | Ursula K. Le Guin | |
+| &#x2B1C; | The Word for World is Forest | 1972 | Ursula K. Le Guin |  |
 | &#x2705; | Four Ways to Forgiveness | 1995 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
-| &#x2B1C; | The Telling | 2000 | Ursula K. Le Guin | |
+| &#x2B1C; | The Telling | 2000 | Ursula K. Le Guin |  |
 | &#x2B1C; | The Lathe of Heaven | 1971 | Ursula K. Le Guin |  |
 | &#x2B1C; | The Beginning Place | 1980 | Ursula K. Le Guin |  |
 | &#x2B1C; | Always Coming Home | 1985 | Ursula K. Le Guin |  |
