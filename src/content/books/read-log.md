@@ -33,7 +33,7 @@ description: Personal reading log by year
 | &#x2B1C; | 1Q84 | 2009 | Haruki Murakami |  |
 | &#x2B1C; | Colorless Tsukuru Tazaki and His Years of Pilgrimage | 2013 | Haruki Murakami |  |
 | &#x2B1C; | Killing Commendatore | 2017 | Haruki Murakami |  |
-| &#x2B1C; | Coraline | 2002 | Neil Gaiman |  |
+| &#x23F8; | Coraline | 2002 | Neil Gaiman | <progress value="45" max="100"></progress> |
 | &#x2B1C; | American Gods | 2001 | Neil Gaiman |  |
 | &#x2B1C; | Neverwhere | 1996 | Neil Gaiman |  |
 | &#x2B1C; | The Graveyard Book | 2008 | Neil Gaiman |  |
@@ -42,7 +42,7 @@ description: Personal reading log by year
 | &#x2B1C; | A Thousand Splendid Suns | 2007 | Khaled Hosseini |  |
 | &#x2B1C; | And the Mountains Echoed | 2013 | Khaled Hosseini |  |
 | &#x2B1C; | Sea Prayer | 2018 | Khaled Hosseini |  |
-| &#x23F8; | Never Let Me Go | 2005 | Kazuo Ishiguro | &#11088; &#11088; &#11088; |
+| &#x2705; | Never Let Me Go | 2005 | Kazuo Ishiguro | &#11088; &#11088; &#11088; |
 | &#x2B1C; | The Remains of the Day | 1989 | Kazuo Ishiguro |  |
 | &#x2B1C; | Parable of the Sower | 1993 | Octavia E. Butler |  |
 | &#x2B1C; | Invisible Cities | 1972 | Italo Calvino |  |
