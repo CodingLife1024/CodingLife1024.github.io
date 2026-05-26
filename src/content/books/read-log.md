@@ -8,6 +8,7 @@ description: Personal reading log by year
 |          | Book Name                                            | Year of Release | Author                              | My Rating                                                      |
 | -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | -------------------------------------------------------------- |
 | &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="60" max="100"></progress> |
+| &#x23F8; | Palace of Illusions | 2008 | Chitra Banerjee Divakaruni | <progress value="46" max="100"></progress> |
 | &#x2705; | The Stranger | 1942 | Albert Camus | &#11088; &#11088; &#11088; |
 | &#x2B1C; | Planet of Exile | 1966 | Ursula K. Le Guin |  |
 | &#x2705; | City of Illusions | 1967 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
@@ -33,7 +34,7 @@ description: Personal reading log by year
 | &#x2B1C; | 1Q84 | 2009 | Haruki Murakami |  |
 | &#x2B1C; | Colorless Tsukuru Tazaki and His Years of Pilgrimage | 2013 | Haruki Murakami |  |
 | &#x2B1C; | Killing Commendatore | 2017 | Haruki Murakami |  |
-| &#x23F8; | Coraline | 2002 | Neil Gaiman | <progress value="45" max="100"></progress> |
+| &#x2705; | Coraline | 2002 | Neil Gaiman | <progress value="45" max="100"></progress> |
 | &#x2B1C; | American Gods | 2001 | Neil Gaiman |  |
 | &#x2B1C; | Neverwhere | 1996 | Neil Gaiman |  |
 | &#x2B1C; | The Graveyard Book | 2008 | Neil Gaiman |  |
