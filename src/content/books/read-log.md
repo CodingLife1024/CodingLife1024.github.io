@@ -8,7 +8,7 @@ description: Personal reading log by year
 |          | Book Name                                            | Year of Release | Author                              | My Rating                                                      |
 | -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | -------------------------------------------------------------- |
 | &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="60" max="100"></progress> |
-| &#x23F8; | Palace of Illusions | 2008 | Chitra Banerjee Divakaruni | &#11088; &#11088; &#11088; &#11088; |
+| &#x2705; | Palace of Illusions | 2008 | Chitra Banerjee Divakaruni | &#11088; &#11088; &#11088; &#11088; |
 | &#x2705; | The Stranger | 1942 | Albert Camus | &#11088; &#11088; &#11088; |
 | &#x2B1C; | Planet of Exile | 1966 | Ursula K. Le Guin |  |
 | &#x2705; | City of Illusions | 1967 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
