@@ -41,8 +41,7 @@ description: Personal reading log by year
 | &#x2B1C; | Stardust | 1999 | Neil Gaiman |  |
 | &#x2705; | The Kite Runner | 2003 | Khaled Hosseini | &#11088; &#11088; &#11088; |
 | &#x2705; | A Thousand Splendid Suns | 2007 | Khaled Hosseini | &#11088; &#11088; &#11088; &#11088; |
-| &#x2B1C; | And the Mountains Echoed | 2013 | Khaled Hosseini |  |
-| &#x2B1C; | Sea Prayer | 2018 | Khaled Hosseini |  |
+| &#x2B1C; | And the Mountains Echoed | 2013 | Khaled Hosseini | <progress value="30" max="100"></progress> |
 | &#x2705; | Never Let Me Go | 2005 | Kazuo Ishiguro | &#11088; &#11088; &#11088; |
 | &#x2B1C; | The Remains of the Day | 1989 | Kazuo Ishiguro |  |
 | &#x2B1C; | Parable of the Sower | 1993 | Octavia E. Butler |  |
