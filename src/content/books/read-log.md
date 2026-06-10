@@ -42,14 +42,14 @@ description: Personal reading log by year
 | &#x2B1C; | Stardust | 1999 | Neil Gaiman |  |
 | &#x2705; | The Kite Runner | 2003 | Khaled Hosseini | &#11088; &#11088; &#11088; |
 | &#x2705; | A Thousand Splendid Suns | 2007 | Khaled Hosseini | &#11088; &#11088; &#11088; &#11088; |
-| &#x23F8; | And the Mountains Echoed | 2013 | Khaled Hosseini | <progress value="30" max="100"></progress> |
+| &#x2705; | And the Mountains Echoed | 2013 | Khaled Hosseini | &#11088; &#11088; |
 | &#x2705; | Never Let Me Go | 2005 | Kazuo Ishiguro | &#11088; &#11088; &#11088; |
 | &#x2B1C; | The Remains of the Day | 1989 | Kazuo Ishiguro |  |
 | &#x2B1C; | Parable of the Sower | 1993 | Octavia E. Butler |  |
 | &#x2B1C; | Invisible Cities | 1972 | Italo Calvino |  |
 | &#x2B1C; | The Shadow Lines | 1988 | Amitav Ghosh |  |
 | &#x2B1C; | The Hour of the Star | 1977 | Clarice Lispector |  |
-| &#x23F8; | Blind Willow, Sleeping Woman | 2006 | Haruki Murakami | <progress value="30" max="100"></progress> |
+| &#x23F8; | Blind Willow, Sleeping Woman | 2006 | Haruki Murakami | <progress value="50" max="100"></progress> |
 | &#x2705; | The Elephant Vanishes | 1993 | Haruki Murakami | &#11088; &#11088; &#11088; &#11088; |
 | &#x2705; | After Dark | 2004 | Haruki Murakami | &#11088; &#11088; &#11088; |
 
