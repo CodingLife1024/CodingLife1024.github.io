@@ -23,7 +23,7 @@ description: Personal reading log by year
 | &#x23F8; | Carmilla | 1897 | Sheridan Le Fanu | <progress value="0" max="100"></progress> |
 | &#x2B1C; | Naked Economics | 2013 | Charles Wheelan, Burton G. Malkiel |  |
 | &#x2B1C; | Freakonomics | 2005 | Steven D. Levitt, Stephen J. Dubner |  |
-| &#x2B1C; | White Nights | 1848 | Fyodor Dostoevsky |  |
+| &#x23F8; | White Nights | 1848 | Fyodor Dostoevsky | <progress value="10" max="100"></progress> |
 | &#x2B1C; | Hear the Wind Sing | 1979 | Haruki Murakami |  |
 | &#x2B1C; | Pinball, 1973 | 1980 | Haruki Murakami |  |
 | &#x2B1C; | A Wild Sheep Chase | 1982 | Haruki Murakami |  |
@@ -35,7 +35,7 @@ description: Personal reading log by year
 | &#x2B1C; | 1Q84 | 2009 | Haruki Murakami |  |
 | &#x2B1C; | Colorless Tsukuru Tazaki and His Years of Pilgrimage | 2013 | Haruki Murakami |  |
 | &#x2B1C; | Killing Commendatore | 2017 | Haruki Murakami |  |
-| &#x2705; | Coraline | 2002 | Neil Gaiman | <progress value="45" max="100"></progress> |
+| &#x2705; | Coraline | 2002 | Neil Gaiman | &#11088; &#11088; &#11088; |
 | &#x2B1C; | American Gods | 2001 | Neil Gaiman |  |
 | &#x2B1C; | Neverwhere | 1996 | Neil Gaiman |  |
 | &#x2B1C; | The Graveyard Book | 2008 | Neil Gaiman |  |
