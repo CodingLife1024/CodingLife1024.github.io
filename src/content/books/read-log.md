@@ -6,7 +6,7 @@ description: Personal reading log by year
 
 |          | Book Name                                            | Year of Release | Author                              | My Rating                                      |
 | -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | ---------------------------------------------- |
-| &#x23F8; | Rocannon's World                                     | 1966            | Ursula K. Le Guin                   | `<progress value="60" max="100"></progress>` |
+| &#x23F8; | Rocannon's World                                     | 1966            | Ursula K. Le Guin                   | <progress value="60" max="100"></progress> |
 | &#x2705; | Palace of Illusions                                  | 2008            | Chitra Banerjee Divakaruni          | &#11088; &#11088; &#11088; &#11088;            |
 | &#x2705; | The Stranger                                         | 1942            | Albert Camus                        | &#11088; &#11088; &#11088;                     |
 | &#x2705; | Never Lie                                            | 2022            | Freida McFadden                     | &#11088;                                       |
@@ -19,16 +19,16 @@ description: Personal reading log by year
 | &#x2B1C; | The Lathe of Heaven                                  | 1971            | Ursula K. Le Guin                   |                                                |
 | &#x2B1C; | The Beginning Place                                  | 1980            | Ursula K. Le Guin                   |                                                |
 | &#x2B1C; | Always Coming Home                                   | 1985            | Ursula K. Le Guin                   |                                                |
-| &#x23F8; | Carmilla                                             | 1897            | Sheridan Le Fanu                    | `<progress value="0" max="100"></progress>`  |
+| &#x23F8; | Carmilla                                             | 1897            | Sheridan Le Fanu                    | <progress value="0" max="100"></progress>  |
 | &#x2B1C; | Naked Economics                                      | 2013            | Charles Wheelan, Burton G. Malkiel  |                                                |
 | &#x2B1C; | Freakonomics                                         | 2005            | Steven D. Levitt, Stephen J. Dubner |                                                |
-| &#x23F8; | White Nights                                         | 1848            | Fyodor Dostoevsky                   | `<progress value="10" max="100"></progress>` |
+| &#x23F8; | White Nights                                         | 1848            | Fyodor Dostoevsky                   | <progress value="10" max="100"></progress> |
 | &#x2B1C; | Hear the Wind Sing                                   | 1979            | Haruki Murakami                     |                                                |
 | &#x2B1C; | Pinball, 1973                                        | 1980            | Haruki Murakami                     |                                                |
 | &#x2B1C; | A Wild Sheep Chase                                   | 1982            | Haruki Murakami                     |                                                |
 | &#x2B1C; | Hard-Boiled Wonderland and the End of the World      | 1985            | Haruki Murakami                     |                                                |
 | &#x2B1C; | South of the Border, West of the Sun                 | 1992            | Haruki Murakami                     |                                                |
-| &#x23F8; | The Wind-Up Bird Chronicle                           | 1994            | Haruki Murakami                     | `<progress value="10" max="100"></progress>` |
+| &#x23F8; | The Wind-Up Bird Chronicle                           | 1994            | Haruki Murakami                     | <progress value="10" max="100"></progress> |
 | &#x2B1C; | Sputnik Sweetheart                                   | 1999            | Haruki Murakami                     |                                                |
 | &#x2B1C; | After Dark                                           | 2004            | Haruki Murakami                     |                                                |
 | &#x2B1C; | 1Q84                                                 | 2009            | Haruki Murakami                     |                                                |
@@ -43,12 +43,12 @@ description: Personal reading log by year
 | &#x2705; | A Thousand Splendid Suns                             | 2007            | Khaled Hosseini                     | &#11088; &#11088; &#11088; &#11088;            |
 | &#x2705; | And the Mountains Echoed                             | 2013            | Khaled Hosseini                     | &#11088; &#11088;                              |
 | &#x2705; | Never Let Me Go                                      | 2005            | Kazuo Ishiguro                      | &#11088; &#11088; &#11088;                     |
-| &#x23F8; | The Remains of the Day | 1989 | Kazuo Ishiguro                      | `<progress value="10" max="100"></progress>` |
+| &#x23F8; | The Remains of the Day | 1989 | Kazuo Ishiguro                      | <progress value="50" max="100"></progress> |
 | &#x2B1C; | Parable of the Sower                                 | 1993            | Octavia E. Butler                   |                                                |
 | &#x2B1C; | Invisible Cities                                     | 1972            | Italo Calvino                       |                                                |
 | &#x2B1C; | The Shadow Lines                                     | 1988            | Amitav Ghosh                        |                                                |
 | &#x2B1C; | The Hour of the Star                                 | 1977            | Clarice Lispector                   |                                                |
-| &#x23F8; | Blind Willow, Sleeping Woman                         | 2006            | Haruki Murakami                     | `<progress value="50" max="100"></progress>` |
+| &#x23F8; | Blind Willow, Sleeping Woman                         | 2006            | Haruki Murakami                     | <progress value="50" max="100"></progress> |
 | &#x2705; | The Elephant Vanishes                                | 1993            | Haruki Murakami                     | &#11088; &#11088; &#11088; &#11088;            |
 | &#x2705; | After Dark                                           | 2004            | Haruki Murakami                     | &#11088; &#11088; &#11088;                     |
 
@@ -87,7 +87,7 @@ description: Personal reading log by year
 | &#x2B1C; | Naked Economics                                      | 2013            | Charles Wheelan, Burton G. Malkiel                       |                                                |
 | &#x2B1C; | Freakonomics                                         | 2005            | Steven D. Levitt, Stephen J. Dubner                      |                                                |
 | &#x2B1C; | White Nights                                         | 1848            | Fyodor Dostoevsky                                        |                                                |
-| &#x23F8; | Sapiens                                              | 2011            | Yuval Noah Harari                                        | `<progress value="86" max="100"></progress>` |
+| &#x23F8; | Sapiens                                              | 2011            | Yuval Noah Harari                                        | <progress value="86" max="100"></progress> |
 | &#x2705; | Blandings Castle                                     | 1935            | P. G. Wodehouse                                          | &#11088; &#11088; &#11088; &#11088;            |
 | &#x2705; | The Meiji Guillotine Murders                         | 2024            | Futaro Yamada                                            | &#11088; &#11088;                              |
 | &#x2705; | A Good Girl's Guide to Murder                        | 2019            | Holly Jackson                                            | &#11088; &#11088; &#11088; &#11088;            |
@@ -98,7 +98,7 @@ description: Personal reading log by year
 | &#x2B1C; | A Wild Sheep Chase                                   | 1982            | Haruki Murakami                                          |                                                |
 | &#x2B1C; | Hard-Boiled Wonderland and the End of the World      | 1985            | Haruki Murakami                                          |                                                |
 | &#x2705; | Dance Dance Dance                                    | 1988            | Haruki Murakami                                          | &#11088; &#11088; &#11088; &#11088;            |
-| &#x23F8; | The Memory Police                                    | 1994            | Yoko Ogawa                                               | `<progress value="10" max="100"></progress>` |
+| &#x23F8; | The Memory Police                                    | 1994            | Yoko Ogawa                                               | <progress value="10" max="100"></progress> |
 | &#x2B1C; | South of the Border, West of the Sun                 | 1992            | Haruki Murakami                                          |                                                |
 | &#x2B1C; | The Wind-Up Bird Chronicle                           | 1994            | Haruki Murakami                                          |                                                |
 | &#x2B1C; | Sputnik Sweetheart                                   | 1999            | Haruki Murakami                                          |                                                |
