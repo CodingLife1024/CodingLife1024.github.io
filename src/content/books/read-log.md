@@ -17,28 +17,28 @@ description: Personal reading log by year
 | &#x2705; | On Earth We Are Briefly Gorgeous | 2019 | Ocean Vuong | &#11088; &#11088; |
 | &#x2705; | Four Ways to Forgiveness | 1995 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
 | &#x2B1C; | The Telling | 2000 | Ursula K. Le Guin |  |
-| &#x2B1C; | The Lathe of Heaven                                  | 1971            | Ursula K. Le Guin                   |  |
-| &#x2B1C; | The Beginning Place                                  | 1980            | Ursula K. Le Guin                   |  |
-| &#x2B1C; | Always Coming Home                                   | 1985            | Ursula K. Le Guin                   |  |
-| &#x23F8; | Carmilla                                             | 1897            | Sheridan Le Fanu                    | <progress value="0" max="100"></progress>  |
-| &#x2B1C; | Naked Economics                                      | 2013            | Charles Wheelan, Burton G. Malkiel  |  |
-| &#x2B1C; | Freakonomics                                         | 2005            | Steven D. Levitt, Stephen J. Dubner |  |
-| &#x23F8; | White Nights                                         | 1848            | Fyodor Dostoevsky                   | <progress value="10" max="100"></progress> |
-| &#x2B1C; | Hear the Wind Sing                                   | 1979            | Haruki Murakami                     |  |
-| &#x2B1C; | Pinball, 1973                                        | 1980            | Haruki Murakami                     |  |
-| &#x2B1C; | A Wild Sheep Chase                                   | 1982            | Haruki Murakami                     |  |
-| &#x2B1C; | Hard-Boiled Wonderland and the End of the World      | 1985            | Haruki Murakami                     |  |
-| &#x2B1C; | South of the Border, West of the Sun                 | 1992            | Haruki Murakami                     |  |
-| &#x23F8; | The Wind-Up Bird Chronicle                           | 1994            | Haruki Murakami                     | <progress value="10" max="100"></progress> |
-| &#x2B1C; | Sputnik Sweetheart                                   | 1999            | Haruki Murakami                     |  |
-| &#x2B1C; | 1Q84                                                 | 2009            | Haruki Murakami                     |  |
-| &#x2B1C; | Colorless Tsukuru Tazaki and His Years of Pilgrimage | 2013            | Haruki Murakami                     |  |
-| &#x2B1C; | Killing Commendatore                                 | 2017            | Haruki Murakami                     |  |
-| &#x2705; | Coraline                                             | 2002            | Neil Gaiman                         | &#11088; &#11088; &#11088;                     |
-| &#x2B1C; | American Gods                                        | 2001            | Neil Gaiman                         |  |
-| &#x2B1C; | Neverwhere                                           | 1996            | Neil Gaiman                         |  |
-| &#x2B1C; | The Graveyard Book                                   | 2008            | Neil Gaiman                         |  |
-| &#x2B1C; | Stardust                                             | 1999            | Neil Gaiman                         |  |
+| &#x2B1C; | The Lathe of Heaven | 1971 | Ursula K. Le Guin |  |
+| &#x2B1C; | The Beginning Place | 1980 | Ursula K. Le Guin |  |
+| &#x2B1C; | Always Coming Home | 1985 | Ursula K. Le Guin |  |
+| &#x23F8; | Carmilla | 1897 | Sheridan Le Fanu | <progress value="0" max="100"></progress>  |
+| &#x2B1C; | Naked Economics | 2013 | Charles Wheelan, Burton G. Malkiel  |  |
+| &#x2B1C; | Freakonomics | 2005 | Steven D. Levitt, Stephen J. Dubner |  |
+| &#x23F8; | White Nights | 1848 | Fyodor Dostoevsky | <progress value="10" max="100"></progress> |
+| &#x2B1C; | Hear the Wind Sing | 1979 | Haruki Murakami |  |
+| &#x2B1C; | Pinball, 1973 | 1980 | Haruki Murakami |  |
+| &#x2B1C; | A Wild Sheep Chase | 1982 | Haruki Murakami |  |
+| &#x2B1C; | Hard-Boiled Wonderland and the End of the World | 1985 | Haruki Murakami |  |
+| &#x2B1C; | South of the Border, West of the Sun | 1992 | Haruki Murakami |  |
+| &#x23F8; | The Wind-Up Bird Chronicle | 1994 | Haruki Murakami | <progress value="10" max="100"></progress> |
+| &#x2B1C; | Sputnik Sweetheart | 1999 | Haruki Murakami |  |
+| &#x2B1C; | 1Q84 | 2009 | Haruki Murakami |  |
+| &#x2B1C; | Colorless Tsukuru Tazaki and His Years of Pilgrimage | 2013 | Haruki Murakami |  |
+| &#x2B1C; | Killing Commendatore | 2017 | Haruki Murakami |  |
+| &#x2705; | Coraline | 2002 | Neil Gaiman | &#11088; &#11088; &#11088; |
+| &#x2B1C; | American Gods | 2001 | Neil Gaiman |  |
+| &#x2B1C; | Neverwhere | 1996 | Neil Gaiman |  |
+| &#x2B1C; | The Graveyard Book | 2008 | Neil Gaiman |  |
+| &#x2B1C; | Stardust | 1999 | Neil Gaiman |  |
 | &#x2705; | As Long as the Lemon Trees Grow | 2022 | Zoulfa Katouh | &#11088; &#11088; &#11088; |
 | &#x2705; | The Kite Runner | 2003 | Khaled Hosseini | &#11088; &#11088; &#11088; |
 | &#x2705; | A Thousand Splendid Suns | 2007 | Khaled Hosseini | &#11088; &#11088; &#11088; &#11088; |
