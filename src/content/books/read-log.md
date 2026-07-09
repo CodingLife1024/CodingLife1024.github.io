@@ -43,7 +43,7 @@ description: Personal reading log by year
 | &#x2705; | A Thousand Splendid Suns | 2007 | Khaled Hosseini | &#11088; &#11088; &#11088; &#11088; |
 | &#x2705; | And the Mountains Echoed | 2013 | Khaled Hosseini | &#11088; &#11088; |
 | &#x2705; | Never Let Me Go | 2005 | Kazuo Ishiguro | &#11088; &#11088; &#11088; |
-| &#x23F8; | The Remains of the Day | 1989 | Kazuo Ishiguro | &#11088; &#11088; &#11088; &#11088; |
+| &#x2705; | The Remains of the Day | 1989 | Kazuo Ishiguro | &#11088; &#11088; &#11088; &#11088; |
 | &#x2B1C; | Parable of the Sower | 1993 | Octavia E. Butler |  |
 | &#x2B1C; | Invisible Cities | 1972 | Italo Calvino |  |
 | &#x2B1C; | The Shadow Lines | 1988 | Amitav Ghosh |  |
