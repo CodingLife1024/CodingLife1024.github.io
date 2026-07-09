@@ -30,7 +30,6 @@ description: Personal reading log by year
 | &#x2B1C; | South of the Border, West of the Sun                 | 1992            | Haruki Murakami                     |  |
 | &#x23F8; | The Wind-Up Bird Chronicle                           | 1994            | Haruki Murakami                     | <progress value="10" max="100"></progress> |
 | &#x2B1C; | Sputnik Sweetheart                                   | 1999            | Haruki Murakami                     |  |
-| &#x2B1C; | After Dark                                           | 2004            | Haruki Murakami                     |  |
 | &#x2B1C; | 1Q84                                                 | 2009            | Haruki Murakami                     |  |
 | &#x2B1C; | Colorless Tsukuru Tazaki and His Years of Pilgrimage | 2013            | Haruki Murakami                     |  |
 | &#x2B1C; | Killing Commendatore                                 | 2017            | Haruki Murakami                     |  |
