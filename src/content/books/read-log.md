@@ -6,16 +6,16 @@ description: Personal reading log by year
 
 |          | Book Name                                            | Year of Release | Author                              | My Rating                                      |
 | -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | ---------------------------------------------- |
-| &#x23F8; | Rocannon's World                                     | 1966            | Ursula K. Le Guin                   | <progress value="60" max="100"></progress> |
-| &#x2705; | Palace of Illusions                                  | 2008            | Chitra Banerjee Divakaruni          | &#11088; &#11088; &#11088; &#11088;            |
-| &#x2705; | The Stranger                                         | 1942            | Albert Camus                        | &#11088; &#11088; &#11088;                     |
-| &#x2705; | Never Lie                                            | 2022            | Freida McFadden                     | &#11088;                                       |
-| &#x2B1C; | Planet of Exile                                      | 1966            | Ursula K. Le Guin                   |                                                |
-| &#x2705; | City of Illusions                                    | 1967            | Ursula K. Le Guin                   | &#11088; &#11088; &#11088;                     |
-| &#x2705; | Yaraana: Gay Writing from India                      | 1999            | Hoshang Merchant                    | &#11088;                                       |
-| &#x2B1C; | The Word for World is Forest                         | 1972            | Ursula K. Le Guin                   |                                                |
-| &#x2705; | Four Ways to Forgiveness                             | 1995            | Ursula K. Le Guin                   | &#11088; &#11088; &#11088;                     |
-| &#x2B1C; | The Telling                                          | 2000            | Ursula K. Le Guin                   |                                                |
+| &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="60" max="100"></progress> |
+| &#x2705; | Palace of Illusions | 2008 | Chitra Banerjee Divakaruni | &#11088; &#11088; &#11088; &#11088; |
+| &#x2705; | The Stranger | 1942 | Albert Camus | &#11088; &#11088; &#11088; |
+| &#x2705; | Never Lie | 2022 | Freida McFadden | &#11088; |
+| &#x2B1C; | Planet of Exile | 1966 | Ursula K. Le Guin |  |
+| &#x2705; | City of Illusions | 1967 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
+| &#x2705; | Yaraana: Gay Writing from India | 1999 | Hoshang Merchant | &#11088; |
+| &#x2B1C; | The Word for World is Forest | 1972 | Ursula K. Le Guin |  |
+| &#x2705; | Four Ways to Forgiveness | 1995 | Ursula K. Le Guin | &#11088; &#11088; &#11088; |
+| &#x2B1C; | The Telling | 2000 | Ursula K. Le Guin |  |
 | &#x2B1C; | The Lathe of Heaven                                  | 1971            | Ursula K. Le Guin                   |                                                |
 | &#x2B1C; | The Beginning Place                                  | 1980            | Ursula K. Le Guin                   |                                                |
 | &#x2B1C; | Always Coming Home                                   | 1985            | Ursula K. Le Guin                   |                                                |
@@ -39,18 +39,19 @@ description: Personal reading log by year
 | &#x2B1C; | Neverwhere                                           | 1996            | Neil Gaiman                         |                                                |
 | &#x2B1C; | The Graveyard Book                                   | 2008            | Neil Gaiman                         |                                                |
 | &#x2B1C; | Stardust                                             | 1999            | Neil Gaiman                         |                                                |
-| &#x2705; | The Kite Runner                                      | 2003            | Khaled Hosseini                     | &#11088; &#11088; &#11088;                     |
-| &#x2705; | A Thousand Splendid Suns                             | 2007            | Khaled Hosseini                     | &#11088; &#11088; &#11088; &#11088;            |
-| &#x2705; | And the Mountains Echoed                             | 2013            | Khaled Hosseini                     | &#11088; &#11088;                              |
-| &#x2705; | Never Let Me Go                                      | 2005            | Kazuo Ishiguro                      | &#11088; &#11088; &#11088;                     |
-| &#x23F8; | The Remains of the Day | 1989 | Kazuo Ishiguro                      | <progress value="50" max="100"></progress> |
-| &#x2B1C; | Parable of the Sower                                 | 1993            | Octavia E. Butler                   |                                                |
-| &#x2B1C; | Invisible Cities                                     | 1972            | Italo Calvino                       |                                                |
-| &#x2B1C; | The Shadow Lines                                     | 1988            | Amitav Ghosh                        |                                                |
-| &#x2B1C; | The Hour of the Star                                 | 1977            | Clarice Lispector                   |                                                |
-| &#x23F8; | Blind Willow, Sleeping Woman                         | 2006            | Haruki Murakami                     | <progress value="50" max="100"></progress> |
-| &#x2705; | The Elephant Vanishes                                | 1993            | Haruki Murakami                     | &#11088; &#11088; &#11088; &#11088;            |
-| &#x2705; | After Dark                                           | 2004            | Haruki Murakami                     | &#11088; &#11088; &#11088;                     |
+| &#x2705; | As Long as the Lemon Trees Grow | 2022 | Zoulfa Katouh | &#11088; &#11088; &#11088; |
+| &#x2705; | The Kite Runner | 2003 | Khaled Hosseini | &#11088; &#11088; &#11088; |
+| &#x2705; | A Thousand Splendid Suns | 2007 | Khaled Hosseini | &#11088; &#11088; &#11088; &#11088; |
+| &#x2705; | And the Mountains Echoed | 2013 | Khaled Hosseini | &#11088; &#11088; |
+| &#x2705; | Never Let Me Go | 2005 | Kazuo Ishiguro | &#11088; &#11088; &#11088; |
+| &#x23F8; | The Remains of the Day | 1989 | Kazuo Ishiguro | &#11088; &#11088; &#11088; &#11088; |
+| &#x2B1C; | Parable of the Sower | 1993 | Octavia E. Butler |  |
+| &#x2B1C; | Invisible Cities | 1972 | Italo Calvino |  |
+| &#x2B1C; | The Shadow Lines | 1988 | Amitav Ghosh |  |
+| &#x2B1C; | The Hour of the Star | 1977 | Clarice Lispector |  |
+| &#x23F8; | Blind Willow, Sleeping Woman | 2006 | Haruki Murakami | <progress value="50" max="100"></progress> |
+| &#x2705; | The Elephant Vanishes | 1993 | Haruki Murakami | &#11088; &#11088; &#11088; &#11088; |
+| &#x2705; | After Dark | 2004 | Haruki Murakami | &#11088; &#11088; &#11088; |
 
 # Books for 2025
 
