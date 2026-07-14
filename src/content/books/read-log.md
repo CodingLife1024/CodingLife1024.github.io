@@ -37,7 +37,7 @@ description: Personal reading log by year
 | &#x2705; | Coraline | 2002 | Neil Gaiman | &#11088; &#11088; &#11088; |
 | &#x2B1C; | American Gods | 2001 | Neil Gaiman |  |
 | &#x2B1C; | Neverwhere | 1996 | Neil Gaiman |  |
-| &#x2B1C; | The Graveyard Book | 2008 | Neil Gaiman |  |
+| &#x23F8; | The Graveyard Book | 2008 | Neil Gaiman | <progress value="37" max="100"></progress> |
 | &#x2B1C; | Stardust | 1999 | Neil Gaiman |  |
 | &#x2705; | As Long as the Lemon Trees Grow | 2022 | Zoulfa Katouh | &#11088; &#11088; &#11088; |
 | &#x2705; | The Kite Runner | 2003 | Khaled Hosseini | &#11088; &#11088; &#11088; |
@@ -46,7 +46,7 @@ description: Personal reading log by year
 | &#x2705; | Never Let Me Go | 2005 | Kazuo Ishiguro | &#11088; &#11088; &#11088; |
 | &#x2705; | The Remains of the Day | 1989 | Kazuo Ishiguro | &#11088; &#11088; &#11088; &#11088; |
 | &#x2B1C; | Parable of the Sower | 1993 | Octavia E. Butler |  |
-| &#x2B1C; | Invisible Cities | 1972 | Italo Calvino |  |
+| &#x2705; | Invisible Cities | 1972 | Italo Calvino | &#11088; &#11088; &#11088; &#11088; |
 | &#x2B1C; | The Shadow Lines | 1988 | Amitav Ghosh |  |
 | &#x2B1C; | The Hour of the Star | 1977 | Clarice Lispector |  |
 | &#x23F8; | Blind Willow, Sleeping Woman | 2006 | Haruki Murakami | <progress value="50" max="100"></progress> |
