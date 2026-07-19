@@ -52,6 +52,7 @@ description: Personal reading log by year
 | &#x23F8; | Blind Willow, Sleeping Woman | 2006 | Haruki Murakami | <progress value="50" max="100"></progress> |
 | &#x2705; | The Elephant Vanishes | 1993 | Haruki Murakami | &#11088; &#11088; &#11088; &#11088; |
 | &#x2705; | After Dark | 2004 | Haruki Murakami | &#11088; &#11088; &#11088; |
+| &#x2705; | Cemetary Boys | 2020 | Aiden Thomas | &#11088; &#11088; |
 
 # Books for 2025
 
