@@ -21,8 +21,8 @@ description: Personal reading log by year
 | &#x2B1C; | The Beginning Place | 1980 | Ursula K. Le Guin |  |
 | &#x2B1C; | Always Coming Home | 1985 | Ursula K. Le Guin |  |
 | &#x23F8; | Carmilla | 1897 | Sheridan Le Fanu | <progress value="0" max="100"></progress>  |
-| &#x23F8; | Naked Economics | 2013 | Charles Wheelan, Burton G. Malkiel  |  |
-| &#x23F8; | Freakonomics | 2005 | Steven D. Levitt, Stephen J. Dubner | <progress value="20" max="100"></progress> |
+| &#x2B1C; | Naked Economics | 2013 | Charles Wheelan, Burton G. Malkiel  |  |
+| &#x23F8; | Freakonomics | 2005 | Steven D. Levitt, Stephen J. Dubner | <progress value="55" max="100"></progress> |
 | &#x23F8; | White Nights | 1848 | Fyodor Dostoevsky | <progress value="10" max="100"></progress> |
 | &#x2B1C; | Hear the Wind Sing | 1979 | Haruki Murakami |  |
 | &#x2B1C; | Pinball, 1973 | 1980 | Haruki Murakami |  |
