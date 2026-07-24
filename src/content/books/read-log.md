@@ -53,6 +53,7 @@ description: Personal reading log by year
 | &#x2705; | The Elephant Vanishes | 1993 | Haruki Murakami | &#11088; &#11088; &#11088; &#11088; |
 | &#x2705; | After Dark | 2004 | Haruki Murakami | &#11088; &#11088; &#11088; |
 | &#x2705; | Cemetary Boys | 2020 | Aiden Thomas | &#11088; &#11088; |
+| &#x2705; | The Perfect Son | 2019 | Freida McFadden | &#11088; |
 
 # Books for 2025
 
