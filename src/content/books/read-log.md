@@ -22,7 +22,7 @@ description: Personal reading log by year
 | &#x2B1C; | Always Coming Home | 1985 | Ursula K. Le Guin |  |
 | &#x23F8; | Carmilla | 1897 | Sheridan Le Fanu | <progress value="0" max="100"></progress>  |
 | &#x2B1C; | Naked Economics | 2013 | Charles Wheelan, Burton G. Malkiel  |  |
-| &#x2705x2705; | Freakonomics | 2005 | Steven D. Levitt, Stephen J. Dubner | &#11088; &#11088; &#11088; &#11088; |
+| &#x2705; | Freakonomics | 2005 | Steven D. Levitt, Stephen J. Dubner | &#11088; &#11088; &#11088; &#11088; |
 | &#x23F8; | White Nights | 1848 | Fyodor Dostoevsky | <progress value="10" max="100"></progress> |
 | &#x2B1C; | Hear the Wind Sing | 1979 | Haruki Murakami |  |
 | &#x2B1C; | Pinball, 1973 | 1980 | Haruki Murakami |  |
