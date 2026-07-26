@@ -24,7 +24,7 @@ description: Personal reading log by year
 | &#x2B1C; | Naked Economics | 2013 | Charles Wheelan, Burton G. Malkiel  |  |
 | &#x2705; | Freakonomics | 2005 | Steven D. Levitt, Stephen J. Dubner | &#11088; &#11088; &#11088; &#11088; |
 | &#x23F8; | White Nights | 1848 | Fyodor Dostoevsky | <progress value="10" max="100"></progress> |
-| &#x2B1C; | Hear the Wind Sing | 1979 | Haruki Murakami |  |
+| &#x23F8; | Hear the Wind Sing | 1979 | Haruki Murakami | <progress value="60" max="100"></progress> |
 | &#x2B1C; | Pinball, 1973 | 1980 | Haruki Murakami |  |
 | &#x2B1C; | A Wild Sheep Chase | 1982 | Haruki Murakami |  |
 | &#x2B1C; | Hard-Boiled Wonderland and the End of the World | 1985 | Haruki Murakami |  |
