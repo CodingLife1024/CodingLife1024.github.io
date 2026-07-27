@@ -38,7 +38,7 @@ description: Personal reading log by year
 | &#x2B1C; | American Gods | 2001 | Neil Gaiman |  |
 | &#x2B1C; | Neverwhere | 1996 | Neil Gaiman |  |
 | &#x2705; | The Graveyard Book | 2008 | Neil Gaiman | &#11088; &#11088; &#11088; &#11088; |
-| &#x2B1C; | Stardust | 1999 | Neil Gaiman |  |
+| &#x23F8; | Stardust | 1999 | Neil Gaiman | <progress value="23" max="100"></progress> |
 | &#x2705; | As Long as the Lemon Trees Grow | 2022 | Zoulfa Katouh | &#11088; &#11088; &#11088; |
 | &#x2705; | The Kite Runner | 2003 | Khaled Hosseini | &#11088; &#11088; &#11088; |
 | &#x2705; | A Thousand Splendid Suns | 2007 | Khaled Hosseini | &#11088; &#11088; &#11088; &#11088; |
