@@ -55,6 +55,7 @@ description: Personal reading log by year
 | &#x2705; | Cemetary Boys | 2020 | Aiden Thomas | &#11088; &#11088; |
 | &#x2705; | The Perfect Son | 2019 | Freida McFadden | &#11088; |
 | &#x2705; | Black Warrant: Confessions of a Tihar Jailer | 2019 | Sunetra Choudhury, Sunil Gupta | &#11088; &#11088; &#11088; &#11088; |
+| &#x2705; | Strange Buildings | 2026 | Uketsu | &#11088; &#11088; &#11088; &#11088; |
 
 # Books for 2025
 
