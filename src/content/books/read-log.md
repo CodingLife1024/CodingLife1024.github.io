@@ -59,7 +59,8 @@ description: Personal reading log by year
 | &#x2705; | Strange Houses | 2025 | Uketsu | &#11088; &#11088; &#11088; &#11088; |
 | &#x2705; | Strange Pictures | 2025 | Uketsu | &#11088; &#11088; &#11088; &#11088; |
 | &#x2705; | Seeing Like a Feminist | 2012 | Nivedita Menon | &#11088; &#11088; |
-| &#x2705; | The Adventures of Amina al-Sirafi | 2023 | Shannon Chakraborty | &#11088; &#11088; &#11088; &#11088; |
+| &#x2705; | The Adventures of Amina Al-Sirafi | 2023 | Shannon Chakraborty | &#11088; &#11088; &#11088; &#11088; |
+| &#x23F8; | The Tapestry of Fate | 2026 | Shannon Chakraborty | <progress value="0" max="100"></progress> |
 
 # Books for 2025
 
