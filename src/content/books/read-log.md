@@ -2,10 +2,32 @@
 title: Books
 description: Personal reading log by year
 ---
+
+# Books for 2027
+
+|          | Book Name | Year of Release | Author | My Rating |
+| -------- | --------- | --------------- | ------ | --------- |
+| &#x2B1C; | Convenience Store Woman | 2016 | Sayaka Murata |  |
+| &#x2B1C; | Before the Coffee Gets Cold | 2015 | Toshikazu Kawaguchi |  |
+| &#x2B1C; | Kitchen | 1988 | Banana Yoshimoto |  |
+| &#x2B1C; | The Housekeeper and the Professor | 2003 | Yoko Ogawa |  |
+| &#x2B1C; | Small Things Like These | 2021 | Claire Keegan |  |
+| &#x2B1C; | Foster | 2010 | Claire Keegan |  |
+| &#x2B1C; | Kim Jiyoung, Born 1982 | 2016 | Cho Nam-joo |  |
+| &#x2B1C; | We Have Always Lived in the Castle | 1962 | Shirley Jackson |  |
+| &#x2B1C; | The Yellow Wallpaper | 1892 | Charlotte Perkins Gilman |  |
+| &#x2B1C; | I Who Have Never Known Men | 1995 | Jacqueline Harpman |  |
+| &#x2B1C; | Piranesi | 2020 | Susanna Clarke |  |
+| &#x2B1C; | A Psalm for the Wild-Built | 2021 | Becky Chambers |  |
+| &#x2B1C; | The Empress of Salt and Fortune | 2020 | Nghi Vo |  |
+| &#x2B1C; | The Seven Husbands of Evelyn Hugo | 2017 | Taylor Jenkins Reid |  |
+| &#x2B1C; | The Devourers | 2015 | Indra Das |  |
+| &#x2B1C; | Interpreter of Maladies | 1999 | Jhumpa Lahiri |  |
+
 # Books for 2026
 
-|          | Book Name                                            | Year of Release | Author                              | My Rating                                      |
-| -------- | ---------------------------------------------------- | --------------- | ----------------------------------- | ---------------------------------------------- |
+|          | Book Name | Year of Release | Author | My Rating |
+| -------- | --------- | --------------- | ------ | --------- |
 | &#x23F8; | Rocannon's World | 1966 | Ursula K. Le Guin | <progress value="60" max="100"></progress> |
 | &#x2705; | Palace of Illusions | 2008 | Chitra Banerjee Divakaruni | &#11088; &#11088; &#11088; &#11088; |
 | &#x2705; | The Stranger | 1942 | Albert Camus | &#11088; &#11088; &#11088; |
@@ -66,8 +88,8 @@ description: Personal reading log by year
 
 # Books for 2025
 
-|          | Book Name                                            | Year of Release | Author                                                   | My Rating                                      |
-| -------- | ---------------------------------------------------- | --------------- | -------------------------------------------------------- | ---------------------------------------------- |
+|          | Book Name | Year of Release | Author | My Rating |
+| -------- | --------- | --------------- | ------ | --------- |
 | &#x2705; | Breasts and Eggs                                     | 2019            | Mieko Kawakami                                           | &#11088; &#11088; &#11088;                     |
 | &#x2B1C; | Rocannon's World                                     | 1966            | Ursula K. Le Guin                                        |  |
 | &#x2B1C; | Planet of Exile                                      | 1966            | Ursula K. Le Guin                                        |  |
