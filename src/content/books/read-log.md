@@ -58,7 +58,7 @@ description: Personal reading log by year
 | &#x2B1C; | Colorless Tsukuru Tazaki and His Years of Pilgrimage | 2013 | Haruki Murakami |  |
 | &#x2B1C; | Killing Commendatore | 2017 | Haruki Murakami |  |
 | &#x2705; | Coraline | 2002 | Neil Gaiman | &#11088; &#11088; &#11088; |
-| &#x23F8; | American Gods | 2001 | Neil Gaiman | <progress value="10" max="100"></progress> |
+| &#x23F8; | American Gods | 2001 | Neil Gaiman | <progress value="21" max="100"></progress> |
 | &#x2B1C; | Neverwhere | 1996 | Neil Gaiman |  |
 | &#x2705; | The Graveyard Book | 2008 | Neil Gaiman | &#11088; &#11088; &#11088; &#11088; |
 | &#x2705; | Stardust | 1999 | Neil Gaiman | &#11088; |
